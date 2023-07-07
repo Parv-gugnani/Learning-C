@@ -1,7 +1,7 @@
 //4sept
 //A simple structure of function
 #include <stdio.h>
-int sum(int,int)
+// int sum(int,int)
 int main(void)
 {
     //
