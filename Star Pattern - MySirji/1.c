@@ -25,7 +25,7 @@
 /*
 for(int j=0; j<5; j++) {
       for(i=0; i<5; i++){
-        if(i<=j) // step 2 i s this
+        if(j<=i) // step 2 is this
         printf("*");
            else
              printf(" ");
