@@ -4,20 +4,20 @@
  ***
  **
  *
- *
  */
 #include "stdio.h"
 
 int main() {
   int i;
+  int j;
 
-  for (int j = 0; j < 5; j++) {
-    for (i = 0; i < 5; i++) {
-      if (j <= i) // step 2 is this
+  for (i = 1; j <= 5; i++) {
+
+    for (i = 1; j <= 5; j++) {
+      if (j <= 6 - i)
         printf("*");
       else
         printf(" ");
     }
-    printf("\n");
   }
 }
